@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Lamisah</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#myCarousel">SLIDES</a></li>
+                <li><a href="#photos">PHOTOS</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h1 id="myCarousel">Slides</h1>
+        <div id="myCarousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center> <a href="#" target="_blank"> <img src="http://epcounty.com/CS/blogs/comm1/image004_6A1CA401.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Graduation</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="https://communityimpact.com/wp-content/uploads/2016/10/Harmony_19.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>School</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="https://dw3jhbqsbya58.cloudfront.net/fit-in/1024x1024/school-mascot/d/c/4/dc426f89-0582-4d8e-9863-55df6d83584b.gif?version=637057757400000000" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Logo</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!-- Left and right controls --> <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+    </div>
+    <h1 id="photos">Photo</h1>
+    <img class="pic" src="IMG_59561-300x225.jpg">
+    <img class="pic" src="HSI-Fort-Worth-1-scaled.jpg">
+    <img class="pic" src="maxresdefault.jpg">
+    <div>
+        <img class="pic" src="1200x0.jpg">
+        <img class="pic" src="2019class.jpg">
+        <img class="pic" src="Team-Orbiters-Win-300x225.jpg">
+    </div>
+</body>
+
+</html>
